@@ -140,6 +140,7 @@ const Header = () => {
                   component="img"
                   onClick={() => setIpAddressDetails({ ipAddress: userInput })}
                   src={ArrowIcon}
+                  alt="Submit arrow icon"
                   sx={{
                     width: '1rem',
                     height: '3.5rem',
